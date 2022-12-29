@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+  background-color: bisque; 
+    width: 300px;
+    height: 100vh;
+    
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: auto;
+    margin-top: 30;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.sidebar nav li a:hover{
+    color: rgb(79, 198, 182);
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+      /* background-color: pink    ; */
+      height: 58vh;
+      width: 80vw; 
+      margin: 144px auto; 
+      display: flex;
+      justify-content: space-around;
+}
+.devpic img{
+    
+    height: 58vh;
+    
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 40px;
+    font-style: unset;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.about{
+    font-size: 30px;
+}
+.more_about{
+    font-size: 19px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 15px;
+}
+.buttons button{
+    margin-top: 34px;
+    padding: 13px;
+    border-radius: 50px;
+    background-color: rgb(79, 198, 182);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    
+
+}
+a{
+    text-decoration: none;
+}
+.buttons button:hover{
+    background-color: bisque;
+    color: rgb(79, 198, 182); 
+}
+.sidebar li:hover{
+    
+    color:bisque;
+    cursor: pointer;
+}
+.contactform{
+    padding: 0 40px ;
+    padding-top: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: center; */
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.contactform form div input{
+    
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 5px 0;
+    border-radius: 50px;
+}
+#form-check {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20;
+    
+}
+#form-check-input{
+    
+    width: 28px;
+    margin: 3px 0;
+    height: 15;
+    
+    
+}
+input{
+    text-align: center;
+    font-size: medium;
+}
+
+
+#emailhelp{
+font-size: 10px;
+color: rgb(101, 188, 201);
+margin: 0 5px;
+padding-bottom: 10;
+}
+.btn_sub{
+   
+    font-size: small;
+    height: 2vw;
+    width: 5vw;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.btn_sub:hover{
+    background-color: bisque;
+    color: rgb(79, 198, 182); 
+}
+
+.form-check-label {
+   
+    font-size: inherit;
+}
+.blogitem{
+    margin: 20;
+    font-family: 'Fira Sans', sans-serif;
+}
+.skillcontainer{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.skill{
+background-color: brown;
+width: 20vw;
+height: 11;
+}
+.skillper{
+    background-color: aqua  ;
+    width: 15;
+    border: 10px solid greenyellow  
+}
+ 
+t5{
+  width: 75px;
+  
+}
+h100{
+   width: 225px;
+   
+ }
+fifty{
+    
+ }
+
+
+
+
+
+
+
